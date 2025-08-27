@@ -7,6 +7,9 @@ package com.mycompany.ziptestdemo;
  *
  * @author 2472557
  */
+
+//Github repository link: https://github.com/wembythegoat/Lab1_Aswinth_Sinnathamby.git
+
 public class ZipCode {
     public int Zip;
     
@@ -95,11 +98,6 @@ public class ZipCode {
                     countOnes++;
                 }
             }
-
-            //if (countOnes != 2) {
-              //  System.out.println("Error: Each group must have exactly 2 ones.");
-              //  return 0;
-            //}
 
             int[] weights = {7, 4, 2, 1, 0};
             int sum = 0;
